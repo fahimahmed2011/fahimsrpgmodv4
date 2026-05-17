@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredient": [
+    {
+      "item": "fahimsrpgmod:pink_garnet_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "fahimsrpgmod:pink_garnet"
+  }
+}
