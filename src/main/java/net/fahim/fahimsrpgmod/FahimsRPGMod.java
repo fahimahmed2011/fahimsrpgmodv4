@@ -2,6 +2,7 @@ package net.fahim.fahimsrpgmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.fahim.fahimsrpgmod.block.ModBlocks;
 import net.fahim.fahimsrpgmod.item.ModItemGroups;
 import net.fahim.fahimsrpgmod.item.ModItems;
@@ -19,7 +20,7 @@ public class FahimsRPGMod implements ModInitializer {
 		ModItems.registerModitems();
 		ModBlocks.registerModBlocks();
 
-
+		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES,500);
 
 	}
 }

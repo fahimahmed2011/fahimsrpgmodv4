@@ -33,28 +33,29 @@ public class MagicBlock extends Block {
         if (entity instanceof ItemEntity itemEntity) {
             if (itemEntity.getStack().getItem() == ModItems.RAW_PINK_GARNET) {
 
-                int random = world.getRandom().nextInt(100);
+                int random = world.getRandom().nextInt(1000);
 
                 Item reward;
-                if (random < 70) {
-                    reward = Items.DIRT;
 
-                } else if (random < 80) {
-                    reward = Items.COAL_BLOCK;
+                if (random < 300) {
+                    reward = Items.DIRT;            // 30%
 
-                } else if (random < 90) {
-                    reward = Items.GOLD_BLOCK;
+                } else if (random < 530) {
 
-                } else if (random < 95) {
-                    reward = Items.OBSIDIAN;
+                    reward = Items.COAL_BLOCK;      // 23%
+                } else if (random < 930) {
 
-                } else if (random < 98) {
-                    reward = Items.DIAMOND_BLOCK;
+                    reward = Items.GOLD_BLOCK;      // 40%
+                } else if (random < 990) {
 
+                    reward = Items.DIAMOND_BLOCK;   // 6%
+                } else if (random < 999) {
 
+                    reward = Items.NETHERITE_BLOCK; // 0.9%
                 } else {
-                reward = Items.NETHERITE_BLOCK;
-            }
+
+                    reward = Items.BEDROCK;         // 0.1%
+                }
 
                 itemEntity.setStack(new ItemStack(reward, itemEntity.getStack().getCount()));
             }
