@@ -1,0 +1,6 @@
+{
+  "parent": "fahimsrpgmod:block/magic_block",
+  "textures": {
+    "layer0": "fahimsrpgmod:item/magic_block"
+  }
+}
