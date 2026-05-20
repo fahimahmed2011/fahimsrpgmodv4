@@ -68,6 +68,13 @@ jar {
 		rename { "${it}_$projectName"}
 	}
 }
+loom {
+	runs {
+		client {
+			vmArg "-Xmx4G"
+		}
+	}
+}
 
 // configure the maven publication
 publishing {

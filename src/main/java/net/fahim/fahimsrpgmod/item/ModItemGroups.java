@@ -14,7 +14,7 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
 
     public static final ItemGroup PINK_GARNET_ITEM_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(FahimsRPGMod.MOD_ID,"pinm_garnet_items"),
+            Identifier.of(FahimsRPGMod.MOD_ID,"pink_garnet_items"),
             FabricItemGroup.builder().icon(() ->new ItemStack(ModItems.PINK_GARNET))
                     .displayName(Text.translatable("itemgroup.fahimsrpgmod.pink_garnet_items"))
                     .entries((displayContext, entries) -> {
@@ -28,7 +28,7 @@ public class ModItemGroups {
                     }).build());
 
     public static final ItemGroup PINK_GARNET_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(FahimsRPGMod.MOD_ID,"pinm_garnet_blocks"),
+            Identifier.of(FahimsRPGMod.MOD_ID,"pink_garnet_blocks"),
             FabricItemGroup.builder().icon(() ->new ItemStack(ModBlocks.PINK_GARNET_BLOCK))
                     .displayName(Text.translatable("itemgroup.fahimsrpgmod.pink_garnet_blocks"))
                     .entries((displayContext, entries) -> {

@@ -14,5 +14,11 @@
   "block.fahimsrpgmod.magic_block": "magic Block",
 
   "itemgroup.fahimsrpgmod.pink_garnet_items": "Pink Garnet Items",
-  "itemgroup.fahimsrpgmod.pink_garnet_blocks": "Pink Garnet Blocks"
+  "itemgroup.fahimsrpgmod.pink_garnet_blocks": "Pink Garnet Blocks",
+
+  "tooltip.fahimsrpgmod.magic_block.tooltip": "This block is very §9saim§r",
+
+  "tooltip.fahimsrpgmod.chisel.shift_down": "This chisel chisels items into bricks like saim did to saim",
+  "tooltip.fahimsrpgmod.chisel": "Press §eShift§r for more Information!!! ",
+  "tooltip.fahimsrpgmod.cauliflower.tooltip": "This tastes like saims sweat"
 }
