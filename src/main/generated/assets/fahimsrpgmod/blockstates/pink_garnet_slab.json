@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fahimsrpgmod:block/pink_garnet_slab"
+    },
+    "type=double": {
+      "model": "fahimsrpgmod:block/pink_garnet_block"
+    },
+    "type=top": {
+      "model": "fahimsrpgmod:block/pink_garnet_slab_top"
+    }
+  }
+}

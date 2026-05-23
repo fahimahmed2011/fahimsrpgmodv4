@@ -1,3 +1,6 @@
-// 1.21	2026-05-22T17:56:09.1270941	FahimsRPGMod/Tags for minecraft:block
+// 1.21	2026-05-23T17:16:28.2002484	FahimsRPGMod/Tags for minecraft:block
 b72cbf748b28bee925892ea7349ef74267980789 data\minecraft\tags\block\needs_iron_tool.json
+c406326e32ef072760151e42961dd1b19518c4ec data\minecraft\tags\block\walls.json
 f051a4849c0beb8bd20e8b9951fe7ee9c36892ae data\minecraft\tags\block\mineable\pickaxe.json
+0e93bc10a022f7eb8eeeca1c8b33220e9cd6d90d data\minecraft\tags\block\fences.json
+341fb8dfbd6b4784ec11cc0096169f13bab5ff09 data\minecraft\tags\block\fence_gates.json

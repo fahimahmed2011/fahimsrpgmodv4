@@ -11,7 +11,19 @@
   "block.fahimsrpgmod.pink_garnet_ore": "Pink Garnet Ore",
   "block.fahimsrpgmod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
 
-  "block.fahimsrpgmod.magic_block": "magic Block",
+  "block.fahimsrpgmod.pink_garnet_fence": "pink garnet fence",
+  "block.fahimsrpgmod.magic_garnet_button": "pink garnet button",
+
+  "block.fahimsrpgmod.pink_garnet_trapdoor": "pink garnet trapdoor",
+  "block.fahimsrpgmod.pink_garnet_slab": "pink garnet slab",
+
+  "block.fahimsrpgmod.pink_garnet_door": "pink garnet door",
+  "block.fahimsrpgmod.pink_garnet_pressure_plate": "pink garnet pressure plate",
+  "block.fahimsrpgmod.pink_garnet_fence_gate": "pink garnet fence gate",
+
+  "block.fahimsrpgmod.pink_garnet_wall": "pink garnet wall",
+  "block.fahimsrpgmod.pink_garnet_stairs": "pink garnet stairs",
+
 
   "itemgroup.fahimsrpgmod.pink_garnet_items": "Pink Garnet Items",
   "itemgroup.fahimsrpgmod.pink_garnet_blocks": "Pink Garnet Blocks",
