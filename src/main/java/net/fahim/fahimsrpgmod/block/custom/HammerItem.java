@@ -24,24 +24,24 @@ public class HammerItem extends MiningToolItem {
             BlockHitResult blockHit = (BlockHitResult) hit;
 
             if(blockHit.getSide() == Direction.DOWN || blockHit.getSide() == Direction.UP) {
-                for(int x = -range; x <= range; x++) {
-                    for(int y = -range; y <= range; y++) {
+                for(int x = -3; x <= 3; x++) {
+                    for(int y = -3; y <= 3; y++) {
                         positions.add(new BlockPos(initalBlockPos.getX() + x, initalBlockPos.getY(), initalBlockPos.getZ() + y));
                     }
                 }
             }
 
             if(blockHit.getSide() == Direction.NORTH || blockHit.getSide() == Direction.SOUTH) {
-                for(int x = -range; x <= range; x++) {
-                    for(int y = -range; y <= range; y++) {
+                for(int x = -3; x <= 3; x++) {
+                    for(int y = -3; y <= 3; y++) {
                         positions.add(new BlockPos(initalBlockPos.getX() + x, initalBlockPos.getY() + y, initalBlockPos.getZ()));
                     }
                 }
             }
 
             if(blockHit.getSide() == Direction.EAST || blockHit.getSide() == Direction.WEST) {
-                for(int x = -range; x <= range; x++) {
-                    for(int y = -range; y <= range; y++) {
+                for(int x = -3; x <= 3; x++) {
+                    for(int y = -3; y <= 3; y++) {
                         positions.add(new BlockPos(initalBlockPos.getX(), initalBlockPos.getY() + y, initalBlockPos.getZ() + x));
                     }
                 }
