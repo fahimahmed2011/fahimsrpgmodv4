@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fahimsrpgmod:item/chisel"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "fahimsrpgmod:used": 1
+      },
+      "model": "fahimsrpgmod:item/chisel_used"
+    }
+  ]
+}
