@@ -44,6 +44,8 @@ public class ModItemGroups {
 
                         entries.add(ModItems.KAUPEN_SMITHING_TEMPLATE);
 
+                        entries.add(ModItems.KAUPEN_BOW);
+
 
 
                     }).build());

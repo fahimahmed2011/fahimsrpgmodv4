@@ -80,6 +80,9 @@ public static final Item PINK_GARNET_SWORD = registerItem("pink_garnet_sword",
     public static final Item KAUPEN_SMITHING_TEMPLATE = registerItem("kaupen_armor_trim_smithing_template",
             SmithingTemplateItem.of(Identifier.of(FahimsRPGMod.MOD_ID,"kaupen"), FeatureFlags.VANILLA));
 
+    public static final Item KAUPEN_BOW = registerItem("kaupen_bow",
+            new BowItem(new Item.Settings().maxDamage(500)));
+
 
 private static Item registerItem(String name, Item item) {
     return Registry.register(Registries.ITEM, Identifier.of(FahimsRPGMod.MOD_ID, name), item);

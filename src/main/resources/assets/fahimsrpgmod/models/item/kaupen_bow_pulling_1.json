@@ -1,0 +1,6 @@
+{
+  "parent": "fahimsrpgmod:item/kaupen_bow",
+  "textures": {
+    "layer0": "fahimsrpgmod:item/kaupen_bow_pulling_1"
+  }
+}
