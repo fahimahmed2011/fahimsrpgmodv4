@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fahim.fahimsrpgmod.FahimsRPGMod;
 import net.fahim.fahimsrpgmod.block.custom.HammerItem;
 import net.fahim.fahimsrpgmod.item.custom.ChiselItem;
+import net.fahim.fahimsrpgmod.item.custom.KaupenBowItem;
 import net.fahim.fahimsrpgmod.item.custom.ModArmorItem;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
@@ -81,7 +82,7 @@ public static final Item PINK_GARNET_SWORD = registerItem("pink_garnet_sword",
             SmithingTemplateItem.of(Identifier.of(FahimsRPGMod.MOD_ID,"kaupen"), FeatureFlags.VANILLA));
 
     public static final Item KAUPEN_BOW = registerItem("kaupen_bow",
-            new BowItem(new Item.Settings().maxDamage(500)));
+            new KaupenBowItem(new Item.Settings().maxDamage(500)));
 
 
 private static Item registerItem(String name, Item item) {
