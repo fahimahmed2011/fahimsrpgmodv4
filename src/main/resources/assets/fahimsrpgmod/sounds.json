@@ -34,5 +34,13 @@
     "sounds": [
       "fahimsrpgmod:magic_block_fall"
     ]
+  },
+  "background_music": {
+    "sounds": [
+      {
+        "name": "fahimsrpgmod:music/background_music",
+        "stream": true
+      }
+    ]
   }
 }

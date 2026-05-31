@@ -6,7 +6,8 @@
 		"ExampleMixin"
 	],
 	"client": [
-		"AbstractClientPlayerEntityMixin"
+		"AbstractClientPlayerEntityMixin",
+		"MusicTrackerMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
