@@ -41,6 +41,12 @@
 
   "block.fahimsrpgmod.pink_garnet_lamp": "pink garnet lamp",
 
+  "effect.fahimsrpgmod.slimey": "Slimey",
+
+  "item.minecraft.potion.effect.slimey_potion": "Slimey Potion",
+  "item.minecraft.splash_potion.effect.slimey_potion": "Slimey Splash Potion",
+  "item.minecraft.lingering_potion.effect.slimey_potion": "Slimey Lingering Potion",
+
   "block.fahimsrpgmod.pink_garnet_door": "pink garnet door",
   "block.fahimsrpgmod.pink_garnet_pressure_plate": "pink garnet pressure plate",
   "block.fahimsrpgmod.pink_garnet_fence_gate": "pink garnet fence gate",
