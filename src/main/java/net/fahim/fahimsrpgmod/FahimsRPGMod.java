@@ -8,6 +8,7 @@ import net.fahim.fahimsrpgmod.block.ModBlocks;
 import net.fahim.fahimsrpgmod.component.ModDataComponentTypes;
 import net.fahim.fahimsrpgmod.item.ModItemGroups;
 import net.fahim.fahimsrpgmod.item.ModItems;
+import net.fahim.fahimsrpgmod.sound.ModSounds;
 import net.fahim.fahimsrpgmod.util.HammerUsageEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,6 +25,7 @@ public class FahimsRPGMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModDataComponentTypes.registerDataComponentTypes();
+		ModSounds.registerSounds();
 
 		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES,500);
 
