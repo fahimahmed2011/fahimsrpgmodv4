@@ -86,7 +86,33 @@ public class ChiselItem extends Item {
                     Map.entry(Blocks.MANGROVE_WOOD, Blocks.STRIPPED_MANGROVE_WOOD),
                     Map.entry(Blocks.CHERRY_WOOD, Blocks.STRIPPED_CHERRY_WOOD),
                     Map.entry(Blocks.CRIMSON_HYPHAE, Blocks.STRIPPED_CRIMSON_HYPHAE),
-                    Map.entry(Blocks.WARPED_HYPHAE, Blocks.STRIPPED_WARPED_HYPHAE)
+                    Map.entry(Blocks.WARPED_HYPHAE, Blocks.STRIPPED_WARPED_HYPHAE),
+
+                    // Ores -> Blocks
+                    Map.entry(Blocks.DIAMOND_ORE, Blocks.DIAMOND_BLOCK),
+                    Map.entry(Blocks.DEEPSLATE_DIAMOND_ORE, Blocks.DIAMOND_BLOCK),
+                    Map.entry(Blocks.GOLD_ORE, Blocks.GOLD_BLOCK),
+                    Map.entry(Blocks.DEEPSLATE_GOLD_ORE, Blocks.GOLD_BLOCK),
+                    Map.entry(Blocks.IRON_ORE, Blocks.IRON_BLOCK),
+                    Map.entry(Blocks.DEEPSLATE_IRON_ORE, Blocks.IRON_BLOCK),
+                    Map.entry(Blocks.EMERALD_ORE, Blocks.EMERALD_BLOCK),
+                    Map.entry(Blocks.DEEPSLATE_EMERALD_ORE, Blocks.EMERALD_BLOCK),
+                    Map.entry(Blocks.LAPIS_ORE, Blocks.LAPIS_BLOCK),
+                    Map.entry(Blocks.DEEPSLATE_LAPIS_ORE, Blocks.LAPIS_BLOCK),
+                    Map.entry(Blocks.REDSTONE_ORE, Blocks.REDSTONE_BLOCK),
+                    Map.entry(Blocks.DEEPSLATE_REDSTONE_ORE, Blocks.REDSTONE_BLOCK),
+                    Map.entry(Blocks.COAL_ORE, Blocks.COAL_BLOCK),
+                    Map.entry(Blocks.DEEPSLATE_COAL_ORE, Blocks.COAL_BLOCK),
+                    Map.entry(Blocks.COPPER_ORE, Blocks.COPPER_BLOCK),
+                    Map.entry(Blocks.DEEPSLATE_COPPER_ORE, Blocks.COPPER_BLOCK),
+                    Map.entry(Blocks.NETHER_GOLD_ORE, Blocks.GOLD_BLOCK),
+                    Map.entry(Blocks.NETHER_QUARTZ_ORE, Blocks.QUARTZ_BLOCK),
+                    Map.entry(Blocks.ANCIENT_DEBRIS, Blocks.NETHERITE_BLOCK),
+                    // Mod ores
+                    Map.entry(ModBlocks.PINK_GARNET_ORE, ModBlocks.PINK_GARNET_BLOCK),
+                    Map.entry(ModBlocks.PINK_GARNET_DEEPSLATE_ORE, ModBlocks.PINK_GARNET_BLOCK),
+                    Map.entry(ModBlocks.PINK_GARNET_NETHER_ORE, ModBlocks.PINK_GARNET_BLOCK),
+                    Map.entry(ModBlocks.PINK_GARNET_END_ORE, ModBlocks.PINK_GARNET_BLOCK)
 
             ));
 

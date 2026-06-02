@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "minecraft:beacon"
+    },
+    "C": {
+      "item": "fahimsrpgmod:chisel"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "G": {
+      "item": "fahimsrpgmod:pink_garnet_block"
+    },
+    "N": {
+      "item": "minecraft:netherite_block"
+    },
+    "S": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "pattern": [
+    "NDB",
+    "GCS",
+    "BDN"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fahimsrpgmod:chisel"
+  }
+}

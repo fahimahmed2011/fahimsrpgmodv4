@@ -60,6 +60,10 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.PINK_GARNET_BLOCK);
 
+                        entries.add(ModBlocks.PINK_GARNET_END_ORE);
+                        entries.add(ModBlocks.PINK_GARNET_NETHER_ORE);
+
+
 
                         entries.add(ModBlocks.PINK_GARNET_FENCE);
                         entries.add(ModBlocks.PINK_GARNET_DOOR);

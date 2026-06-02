@@ -107,6 +107,30 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         conditionsFromItem(ModItems.PINK_GARNET))
                 .offerTo(exporter);
 
+        // Chisel - basic recipe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CHISEL)
+                .pattern(" G ")
+                .pattern(" S ")
+                .pattern("   ")
+                .input('G', ModItems.PINK_GARNET)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
+                .offerTo(exporter);
+
+// Chisel upgrade - smithing table
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CHISEL)
+                .pattern("NDB")
+                .pattern("GCS")
+                .pattern("BDN")
+                .input('N', Items.NETHERITE_BLOCK)
+                .input('D', Items.DIAMOND_BLOCK)
+                .input('B', Items.BEACON)
+                .input('G', ModBlocks.PINK_GARNET_BLOCK)
+                .input('C', ModItems.CHISEL)
+                .input('S', Items.GOLD_BLOCK)
+                .criterion(hasItem(ModItems.CHISEL), conditionsFromItem(ModItems.CHISEL))
+                .offerTo(exporter, Identifier.of(FahimsRPGMod.MOD_ID, "chisel_upgraded"));
+
 
 
         offerSmithingTrimRecipe(exporter, ModItems.KAUPEN_SMITHING_TEMPLATE, Identifier.of(FahimsRPGMod.MOD_ID,"kaupen"));

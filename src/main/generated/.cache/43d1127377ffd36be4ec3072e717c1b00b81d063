@@ -1,4 +1,10 @@
-// 1.21	2026-06-02T14:48:59.5239555	FahimsRPGMod/
+// 1.21	2026-06-02T22:02:39.8886728	FahimsRPGMod/
+832c5123978b93592c0cfbc0cc191325cb8e9649 data\fahimsrpgmod\worldgen\placed_feature\nether_pink_garnet_placed.json
+a154877105a1900aa4b41da738b7d8d390a8f8eb data\fahimsrpgmod\worldgen\configured_feature\end_pink_garnet_ore.json
 d92b3b34135185758e8328a672579f16412b609b data\fahimsrpgmod\trim_pattern\kaupen.json
+81cc62dfd02e29a0ee08a55081395eed45a4d89e data\fahimsrpgmod\worldgen\configured_feature\nether_pink_garnet_ore.json
+3cf9c9831cb8d89d0944f23df09b23380a7e9dab data\fahimsrpgmod\worldgen\placed_feature\end_pink_garnet_placed.json
+b30255852fa06d3c4d27ae334e82a8b3bd1f75f0 data\fahimsrpgmod\worldgen\placed_feature\pink_garnet_placed.json
 65509f10084b766c176fdd194f9537faa8b39e52 data\fahimsrpgmod\trim_material\pink_garnet.json
 3d1a3faca869cb8d78337ec4fb22514588200304 data\fahimsrpgmod\enchantment\lightning_striker.json
+9ecbee878a58d4c43bf0079a9c9d7f5757620ae0 data\fahimsrpgmod\worldgen\configured_feature\pink_garnet_ore.json

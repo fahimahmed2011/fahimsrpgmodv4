@@ -25,16 +25,16 @@ public class ModPlacedFeatures {
         var configuredFeatures = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
         register(context,PINK_GARNET_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.PINK_GARNET_ORE_KEY),
-        ModOrePlacement.modifiersWithCount(12,
-                HeightRangePlacementModifier.trapezoid(YOffset.fixed(-80),YOffset.fixed(-90))));
+        ModOrePlacement.modifiersWithRarity(64,
+                HeightRangePlacementModifier.trapezoid(YOffset.fixed(-80),YOffset.fixed(0))));
 
                 register(context,NETHER_PINK_GARNET_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.NETHER_PINK_GARNET_ORE_KEY),
-                        ModOrePlacement.modifiersWithCount(12,
-                                HeightRangePlacementModifier.trapezoid(YOffset.fixed(-80),YOffset.fixed(-90))));
+                        ModOrePlacement.modifiersWithRarity(64,
+                                HeightRangePlacementModifier.trapezoid(YOffset.fixed(10),YOffset.fixed(80))));
 
                                 register(context,END_PINK_GARNET_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.END_PINK_GARNET_ORE_KEY),
-                                        ModOrePlacement.modifiersWithCount(12,
-                                                HeightRangePlacementModifier.trapezoid(YOffset.fixed(-80),YOffset.fixed(-90))));
+                                        ModOrePlacement.modifiersWithRarity(64,
+                                                HeightRangePlacementModifier.trapezoid(YOffset.fixed(10),YOffset.fixed(80))));
 
 
     }
