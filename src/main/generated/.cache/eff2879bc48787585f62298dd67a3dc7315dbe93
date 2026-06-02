@@ -1,7 +1,8 @@
-// 1.21	2026-06-02T13:49:06.2301284	FahimsRPGMod/Block Loot Tables
+// 1.21	2026-06-02T14:48:59.521441	FahimsRPGMod/Block Loot Tables
 e149f2688cf07ac56c3eca7847fdac35d987a8e3 data\fahimsrpgmod\loot_table\blocks\pink_garnet_slab.json
 2246bd0af00612e127a291dc194bd66944382d7d data\fahimsrpgmod\loot_table\blocks\pink_garnet_trapdoor.json
 92bf62e7859ab5afde6777a92b1fe45b5e7e0593 data\fahimsrpgmod\loot_table\blocks\pink_garnet_fence.json
+8124fc77828fd30d0a7fc33436aabae1ed6d42b7 data\fahimsrpgmod\loot_table\blocks\honey_berry_bush.json
 5f1569a6fa58c825086e4d2fed73bf7476c22470 data\fahimsrpgmod\loot_table\blocks\pink_garnet_fence_gate.json
 913d8904e4607d639223877fab303143cc57fb20 data\fahimsrpgmod\loot_table\blocks\pink_garnet_button.json
 c06622c888e69391fcc5ed202a48f10c3fb45364 data\fahimsrpgmod\loot_table\blocks\pink_garnet_block.json

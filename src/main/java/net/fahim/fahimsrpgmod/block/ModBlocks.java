@@ -3,6 +3,7 @@ package net.fahim.fahimsrpgmod.block;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fahim.fahimsrpgmod.FahimsRPGMod;
 import net.fahim.fahimsrpgmod.block.custom.CauliflowerCropBlock;
+import net.fahim.fahimsrpgmod.block.custom.HoneyberryBushBlock;
 import net.fahim.fahimsrpgmod.block.custom.MagicBlock;
 import net.fahim.fahimsrpgmod.block.custom.PinkGarnetLampBlock;
 import net.fahim.fahimsrpgmod.sound.ModSounds;
@@ -75,6 +76,9 @@ public class ModBlocks {
 
         public static final Block CAULIFLOWER_CROP = registerBlockWithoutBlockItem("cauliflower_crop",
                 new CauliflowerCropBlock(AbstractBlock.Settings.create().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY).mapColor(MapColor.DARK_GREEN)));
+
+        public static final Block HONEY_BERRY_BUSH = registerBlockWithoutBlockItem("honey_berry_bush",
+                new HoneyberryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)));
 
 
 

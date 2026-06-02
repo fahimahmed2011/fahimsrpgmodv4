@@ -14,7 +14,8 @@
   "item.fahimsrpgmod.pink_garnet_hammer": "Pink Garnet Hammer",
 
   "item.fahimsrpgmod.cauliflower_seeds": "Cauliflower Seeds",
-  "item.fahimsrpgmod.cauliflower_crop": "Cauliflower Crop",
+  "item.fahimsrpgmod.honey_berry": "Honey Berries",
+
 
   "item.fahimsrpgmod.pink_garnet_helmet": "Pink Garnet Helmet",
   "item.fahimsrpgmod.pink_garnet_chestplate": "Pink Garnet Chestplate",
@@ -43,6 +44,9 @@
   "block.fahimsrpgmod.pink_garnet_slab": "pink garnet slab",
 
   "block.fahimsrpgmod.pink_garnet_lamp": "pink garnet lamp",
+
+  "block.fahimsrpgmod.cauliflower_crop": "Cauliflower Crop",
+  "block.fahimsrpgmod.honey_berry_bush_block": " Honey Berry Bush",
 
   "effect.fahimsrpgmod.slimey": "Slimey",
 
