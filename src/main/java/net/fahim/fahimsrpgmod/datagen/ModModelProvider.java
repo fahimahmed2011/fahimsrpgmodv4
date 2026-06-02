@@ -3,6 +3,7 @@ package net.fahim.fahimsrpgmod.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.fahim.fahimsrpgmod.block.ModBlocks;
+import net.fahim.fahimsrpgmod.block.custom.CauliflowerCropBlock;
 import net.fahim.fahimsrpgmod.block.custom.PinkGarnetLampBlock;
 import net.fahim.fahimsrpgmod.item.ModItems;
 import net.minecraft.data.client.*;
@@ -42,6 +43,8 @@ public class ModModelProvider extends FabricModelProvider {
         Identifier lampOnIdentifier = blockStateModelGenerator.createSubModel(ModBlocks.PINK_GARNET_LAMP,"on", Models.CUBE_ALL, TextureMap::all);
         blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.PINK_GARNET_LAMP)
                 .coordinate(BlockStateModelGenerator.createBooleanModelMap(PinkGarnetLampBlock.CLICKED,lampOnIdentifier,lampOffIdentifier)));
+
+        blockStateModelGenerator.registerCrop(ModBlocks.CAULIFLOWER_CROP, CauliflowerCropBlock.AGE,0,1,2,3,4,5,6);
     }
 
     @Override

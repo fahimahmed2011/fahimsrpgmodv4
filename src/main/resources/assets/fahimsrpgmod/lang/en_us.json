@@ -13,6 +13,9 @@
 
   "item.fahimsrpgmod.pink_garnet_hammer": "Pink Garnet Hammer",
 
+  "item.fahimsrpgmod.cauliflower_seeds": "Cauliflower Seeds",
+  "item.fahimsrpgmod.cauliflower_crop": "Cauliflower Crop",
+
   "item.fahimsrpgmod.pink_garnet_helmet": "Pink Garnet Helmet",
   "item.fahimsrpgmod.pink_garnet_chestplate": "Pink Garnet Chestplate",
   "item.fahimsrpgmod.pink_garnet_leggings": "Pink Garnet Leggings",
@@ -43,7 +46,7 @@
 
   "effect.fahimsrpgmod.slimey": "Slimey",
 
-  "enchatntment.fahimsrpgmod.lightning_striker": "Lightning Striker",
+  "enchantment.fahimsrpgmod.lightning_striker": "Lightning Striker",
 
   "item.minecraft.potion.effect.slimey_potion": "Slimey Potion",
   "item.minecraft.splash_potion.effect.slimey_potion": "Slimey Splash Potion",

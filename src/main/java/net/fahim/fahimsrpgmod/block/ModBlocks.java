@@ -2,10 +2,12 @@ package net.fahim.fahimsrpgmod.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fahim.fahimsrpgmod.FahimsRPGMod;
+import net.fahim.fahimsrpgmod.block.custom.CauliflowerCropBlock;
 import net.fahim.fahimsrpgmod.block.custom.MagicBlock;
 import net.fahim.fahimsrpgmod.block.custom.PinkGarnetLampBlock;
 import net.fahim.fahimsrpgmod.sound.ModSounds;
 import net.minecraft.block.*;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -44,18 +46,26 @@ public class ModBlocks {
 
         public static final Block PINK_GARNET_BUTTON = registerBlock("pink_garnet_button",
            new ButtonBlock(BlockSetType.IRON,2, AbstractBlock.Settings.create().strength(2.5f).requiresTool().noCollision()));
+
+
         public static final Block PINK_GARNET_PRESSURE_PLATE = registerBlock("pink_garnet_pressure_plate",
            new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2.5f).requiresTool()));
 
         public static final Block PINK_GARNET_FENCE = registerBlock("pink_garnet_fence",
            new FenceBlock (AbstractBlock.Settings.create().strength(2.5f).requiresTool()));
+
+
         public static final Block PINK_GARNET_FENCE_GATE = registerBlock("pink_garnet_fence_gate",
            new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(2.5f).requiresTool().nonOpaque()));
+
+
         public static final Block PINK_GARNET_WALL = registerBlock("pink_garnet_wall",
            new WallBlock(AbstractBlock.Settings.create().strength(2.5f).requiresTool()));
 
         public static final Block PINK_GARNET_DOOR = registerBlock("pink_garnet_door",
            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2.5f).requiresTool().nonOpaque()));
+
+
         public static final Block PINK_GARNET_TRAPDOOR = registerBlock("pink_garnet_trapdoor",
            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2.5f).requiresTool()));
 
@@ -63,10 +73,17 @@ public class ModBlocks {
                 new PinkGarnetLampBlock(AbstractBlock.Settings.create()
                         .strength(1f).requiresTool().luminance(state-> state.get(PinkGarnetLampBlock.CLICKED) ? 15 : 0)));
 
+        public static final Block CAULIFLOWER_CROP = registerBlockWithoutBlockItem("cauliflower_crop",
+                new CauliflowerCropBlock(AbstractBlock.Settings.create().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY).mapColor(MapColor.DARK_GREEN)));
+
 
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
+        return Registry.register(Registries.BLOCK, Identifier.of(FahimsRPGMod.MOD_ID, name),block);
+    }
+
+    private static Block registerBlockWithoutBlockItem(String name, Block block) {
         return Registry.register(Registries.BLOCK, Identifier.of(FahimsRPGMod.MOD_ID, name),block);
     }
 

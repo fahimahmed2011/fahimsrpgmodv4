@@ -46,6 +46,8 @@ public class ModItemGroups {
 
                         entries.add(ModItems.KAUPEN_BOW);
 
+                        entries.add(ModItems.CAULIFLOWER_SEEDS);
+
 
 
                     }).build());

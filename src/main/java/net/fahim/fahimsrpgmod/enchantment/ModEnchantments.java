@@ -23,17 +23,18 @@ public class ModEnchantments {
         var items = registerable.getRegistryLookup(RegistryKeys.ITEM);
 
 
-        register(registerable,LIGHTNING_STRIKER,Enchantment.builder(Enchantment.definition(
-                items.getOrThrow(ItemTags.WEAPON_ENCHANTABLE),
-                items.getOrThrow(ItemTags.SWORD_ENCHANTABLE),
-                5,
-                2,
-                Enchantment.leveledCost(5,7),
-                Enchantment.leveledCost(25,9),
-                2,
-                AttributeModifierSlot.MAINHAND)).exclusiveSet(enchantments.getOrThrow(EnchantmentTags.DAMAGE_EXCLUSIVE_SET))
+        register(registerable, LIGHTNING_STRIKER, Enchantment.builder(Enchantment.definition(
+                        items.getOrThrow(ItemTags.WEAPON_ENCHANTABLE),  // supportedItems
+                        items.getOrThrow(ItemTags.BOW_ENCHANTABLE),     // primaryItems (shows in enchanting table)
+                        5,
+                        2,
+                        Enchantment.leveledCost(5, 7),
+                        Enchantment.leveledCost(25, 9),
+                        2,
+                        AttributeModifierSlot.MAINHAND))
+                .exclusiveSet(enchantments.getOrThrow(EnchantmentTags.DAMAGE_EXCLUSIVE_SET))
                 .addEffect(EnchantmentEffectComponentTypes.POST_ATTACK,
-                        EnchantmentEffectTarget.ATTACKER,EnchantmentEffectTarget.VICTIM,
+                        EnchantmentEffectTarget.ATTACKER, EnchantmentEffectTarget.VICTIM,
                         new LightningStrikerEnchantmetEffect()));
     }
 

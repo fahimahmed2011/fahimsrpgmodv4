@@ -2,6 +2,7 @@ package net.fahim.fahimsrpgmod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fahim.fahimsrpgmod.FahimsRPGMod;
+import net.fahim.fahimsrpgmod.block.ModBlocks;
 import net.fahim.fahimsrpgmod.block.custom.HammerItem;
 import net.fahim.fahimsrpgmod.item.custom.ChiselItem;
 import net.fahim.fahimsrpgmod.item.custom.KaupenBowItem;
@@ -83,6 +84,9 @@ public static final Item PINK_GARNET_SWORD = registerItem("pink_garnet_sword",
 
     public static final Item KAUPEN_BOW = registerItem("kaupen_bow",
             new KaupenBowItem(new Item.Settings().maxDamage(500)));
+
+    public static final Item CAULIFLOWER_SEEDS = registerItem("cauliflower_seeds",
+            new AliasedBlockItem(ModBlocks.CAULIFLOWER_CROP, new Item.Settings()));
 
 
 private static Item registerItem(String name, Item item) {
