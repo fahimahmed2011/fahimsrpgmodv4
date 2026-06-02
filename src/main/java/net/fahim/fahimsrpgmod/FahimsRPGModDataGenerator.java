@@ -3,6 +3,7 @@ package net.fahim.fahimsrpgmod;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fahim.fahimsrpgmod.datagen.*;
+import net.fahim.fahimsrpgmod.enchantment.ModEnchantments;
 import net.fahim.fahimsrpgmod.trim.ModTrimMaterials;
 import net.fahim.fahimsrpgmod.trim.ModTrimPatterns;
 import net.minecraft.registry.RegistryBuilder;
@@ -27,6 +28,7 @@ public class FahimsRPGModDataGenerator implements DataGeneratorEntrypoint {
 	public void buildRegistry(RegistryBuilder registryBuilder) {
      registryBuilder.addRegistry(RegistryKeys.TRIM_MATERIAL, ModTrimMaterials::bootstrap);
      registryBuilder.addRegistry(RegistryKeys.TRIM_PATTERN, ModTrimPatterns::bootstrap);
+	 registryBuilder.addRegistry(RegistryKeys.ENCHANTMENT, ModEnchantments::bootstrap);
 
 	}
 }

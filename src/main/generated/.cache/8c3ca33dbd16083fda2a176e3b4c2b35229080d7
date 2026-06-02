@@ -1,10 +1,10 @@
-// 1.21	2026-05-30T15:10:01.8736595	FahimsRPGMod/Tags for minecraft:item
+// 1.21	2026-06-02T09:22:05.394731	FahimsRPGMod/Tags for minecraft:item
 25e67368a7395bdcd437467a50f9f85ac12fd02b data\minecraft\tags\item\shovels.json
 db162f7d9ba1f45d12c161a14358c3f83ecef2d1 data\minecraft\tags\item\trim_materials.json
 5777a143576a906edf3b84a063a06f27a7b5eca9 data\minecraft\tags\item\axes.json
 0d47394f1da8bea23d2cfb34b0ce9dcd89b304e3 data\minecraft\tags\item\pickaxes.json
 6ae14d951b5aecf23b6ed85944d11149b216aa20 data\fahimsrpgmod\tags\item\transformable_items.json.json
-c5ca893222a7e3056bd6ad8705a8fb6e303f23bc data\minecraft\tags\item\swords.json
 6f04dd1992b2adee488c1af086c12949735e27a9 data\minecraft\tags\item\hoes.json
+c5ca893222a7e3056bd6ad8705a8fb6e303f23bc data\minecraft\tags\item\swords.json
 5680d3576187c43f39b1cb03d463a8f7024857e2 data\minecraft\tags\item\trimmable_armor.json
 6406ef651c25b72b17a1762a27c49e5c83980f25 data\minecraft\tags\item\trim_templates.json

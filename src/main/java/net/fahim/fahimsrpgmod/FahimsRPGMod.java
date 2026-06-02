@@ -7,14 +7,13 @@ import net.fabricmc.fabric.api.registry.FabricBrewingRecipeRegistryBuilder;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.fahim.fahimsrpgmod.block.ModBlocks;
 import net.fahim.fahimsrpgmod.component.ModDataComponentTypes;
+import net.fahim.fahimsrpgmod.enchantment.ModEnchantmentEffects;
 import net.fahim.fahimsrpgmod.item.ModItemGroups;
 import net.fahim.fahimsrpgmod.item.ModItems;
 import net.fahim.fahimsrpgmod.potion.ModPotions;
 import net.fahim.fahimsrpgmod.sound.ModSounds;
 import net.fahim.fahimsrpgmod.util.HammerUsageEvent;
-import net.minecraft.item.Item;
 import net.minecraft.item.Items;
-import net.minecraft.potion.Potion;
 import net.minecraft.potion.Potions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -33,8 +32,13 @@ public class FahimsRPGMod implements ModInitializer {
 
 		ModDataComponentTypes.registerDataComponentTypes();
 		ModSounds.registerSounds();
+
 		ModEffects.registerEffects();
 		ModPotions.registerPotions();
+
+		ModEnchantmentEffects.registerModEnchantmentEffects();
+
+
 
 		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES,500);
 
