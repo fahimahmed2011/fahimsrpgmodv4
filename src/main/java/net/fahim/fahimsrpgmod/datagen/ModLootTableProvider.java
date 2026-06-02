@@ -82,9 +82,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider { Registr
                                                 .with(ItemEntry.builder(ModBlocks.HONEY_BERRY_BUSH))
                                                 .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0F, 2.0F)))
                                                 .apply(ApplyBonusLootFunction.uniformBonusCount(impl.getOrThrow(Enchantments.FORTUNE)))
+
                                 )
                 )
         );
+        addDrop(ModBlocks.PINK_GARNET_END_ORE, oreDrops(ModBlocks.PINK_GARNET_END_ORE, ModItems.RAW_PINK_GARNET));
+        addDrop(ModBlocks.PINK_GARNET_NETHER_ORE, multipleOreDrops(ModBlocks.PINK_GARNET_NETHER_ORE, ModItems.RAW_PINK_GARNET, 2, 7));
 
     }
     public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops , float maxDrops) {
@@ -92,5 +95,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider { Registr
         return this.dropsWithSilkTouch(drop, this. applyExplosionDecay(drop, ((LeafEntry.Builder<?>)
                 ItemEntry.builder(item).apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(minDrops, maxDrops))))
                 .apply(ApplyBonusLootFunction.oreDrops(impl.getOrThrow(Enchantments.FORTUNE)))));
+
+
     }
 }

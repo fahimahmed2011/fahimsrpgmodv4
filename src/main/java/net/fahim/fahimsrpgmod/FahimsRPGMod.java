@@ -14,6 +14,7 @@ import net.fahim.fahimsrpgmod.item.ModItems;
 import net.fahim.fahimsrpgmod.potion.ModPotions;
 import net.fahim.fahimsrpgmod.sound.ModSounds;
 import net.fahim.fahimsrpgmod.util.HammerUsageEvent;
+import net.fahim.fahimsrpgmod.world.gen.ModWorldGeneration;
 import net.minecraft.item.Items;
 import net.minecraft.potion.Potions;
 import org.slf4j.Logger;
@@ -38,6 +39,7 @@ public class FahimsRPGMod implements ModInitializer {
 		ModPotions.registerPotions();
 
 		ModEnchantmentEffects.registerModEnchantmentEffects();
+		ModWorldGeneration.generateWorldGen();
 
 
 

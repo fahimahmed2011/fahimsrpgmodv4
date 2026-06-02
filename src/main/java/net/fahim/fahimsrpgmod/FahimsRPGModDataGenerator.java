@@ -6,6 +6,8 @@ import net.fahim.fahimsrpgmod.datagen.*;
 import net.fahim.fahimsrpgmod.enchantment.ModEnchantments;
 import net.fahim.fahimsrpgmod.trim.ModTrimMaterials;
 import net.fahim.fahimsrpgmod.trim.ModTrimPatterns;
+import net.fahim.fahimsrpgmod.world.ModConfiguredFeatures;
+import net.fahim.fahimsrpgmod.world.ModPlacedFeatures;
 import net.minecraft.registry.RegistryBuilder;
 import net.minecraft.registry.RegistryKeys;
 
@@ -29,6 +31,10 @@ public class FahimsRPGModDataGenerator implements DataGeneratorEntrypoint {
      registryBuilder.addRegistry(RegistryKeys.TRIM_MATERIAL, ModTrimMaterials::bootstrap);
      registryBuilder.addRegistry(RegistryKeys.TRIM_PATTERN, ModTrimPatterns::bootstrap);
 	 registryBuilder.addRegistry(RegistryKeys.ENCHANTMENT, ModEnchantments::bootstrap);
+
+
+	 registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
+	 registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
 
 	}
 }
